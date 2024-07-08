@@ -1,0 +1,24 @@
+{
+  "name": "noderestapi",
+  "version": "1.0.0",
+  "description": "tes rest api node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codewithwil/TesNodeRes.git"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "nodejs"
+  ],
+  "author": "willy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codewithwil/TesNodeRes/issues"
+  },
+  "homepage": "https://github.com/codewithwil/TesNodeRes#readme"
+}
