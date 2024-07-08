@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/codewithwil/TesNodeRes/issues"
   },
-  "homepage": "https://github.com/codewithwil/TesNodeRes#readme"
+  "homepage": "https://github.com/codewithwil/TesNodeRes#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "mysql": "^2.18.1"
+  }
 }
