@@ -12,7 +12,7 @@ module.exports = function(app){
     app.route('/read/:id')
         .get(jsonku.selectMahasiswaById);   
 
-    app.route('/create')
+    app.route('/create') 
         .post(jsonku.createMahasiswa);
 
     app.route('/update')
@@ -20,4 +20,7 @@ module.exports = function(app){
 
     app.route('/delete')
         .delete(jsonku.deleteByIdMahasiswa);
+
+    app.route('/readMatakuliah')
+        .get(jsonku.readGroupMatakuliah);
 }   
